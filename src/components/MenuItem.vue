@@ -74,7 +74,7 @@ export default {
 				<label for="add-item-quantity">Quantité : </label>
 				<input v-model.number="quantity" id="add-item-quantity" type="number" />
 			</div>
-				<button class="addToCart" @click="updateCart()">
+				<button class="defaultButton" @click="updateCart()">
 					AJOUTER AU PANIER
 				</button>
 		</div>
@@ -98,7 +98,7 @@ export default {
 	display: flex;
 	flex-direction: column;
 }
-.addToCart{
+.defaultButton{
 	background-color: #b7cefa;
 	margin-top: 5px;
 	padding: 5px;
